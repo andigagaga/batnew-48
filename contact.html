@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>CONTACT ME</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-kiri">
+            <ul>
+                <li>
+                    <a href="https://id.wikipedia.org/wiki/Cinta">
+                        <img style="width: 40px; margin: 5px auto;" src="image/pdi.jpg" alt="pdi.p">
+                    </a>
+                </li>
+                <li>
+                    <a style="text-decoration: none;" href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a style="text-decoration: none;" href="#">MY PROJECT</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-kanan">
+            <ul>
+                <li>
+                    <a href="contact.html" style="text-decoration: none; color: white; background-color: black; padding: 10px;">CONTACT ME</a>
+                </li>
+            </ul>
+    
+        </div>
+    </nav>
+   
+    <form>
+        <div>
+            <h1 style="text-align: center;">GET IN TOUCH</h1>
+        </div>
+        <div>
+            <label for="input-name">NAME</label>
+            <input id="input-name" type="text" required>
+
+        </div>
+        <div>
+            <label for="input-email">EMAIL</label>
+            <input id="input-email" type="email" required>
+        </div>
+        <div>
+            <label for="input-phone">YOUR PHONE</label>
+            <input id="input-phone" type="number" required>
+        </div>
+        <div>
+            <label for="input-subject">SUBJECT</label>
+            <select id="input-subject" style="font-weight: bold; color: black; width: 580px;">
+                <option value="" hidden>SELECT</option>
+                <option>FULL STACK</option>
+                <option>FRONTEND</option>
+                <option>BACKEND</option>
+            </select>
+        </div>
+        <div>
+            <label for="input-message">MESSAGE</label>
+            <textarea id="input-message" rows="7" cols="15"></textarea>
+        </div>
+        
+        <div>
+            <button type="button" onclick="submitData()">SUBMIT</button>
+        </div>
+    </form>
+    <script src="contact.js"></script>
+
+</body>
+
+</html>
