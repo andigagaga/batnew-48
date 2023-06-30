@@ -1,0 +1,360 @@
+/* body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.project-form{
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    background: white;
+   
+   
+}
+.project-form .project-container{
+    width: 500px;
+   
+
+}
+.project-form .project-container form h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.project-form form label{
+    font-size: 22px;
+    
+}
+.project-form form input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    background: lightgrey;
+}
+.project-form form textarea{
+    margin-bottom: 20px;
+    height: 200px;
+}
+.input-cekbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.input-cekbox div{
+    flex: 45%;
+    display: flex;
+    justify-content: flex-start;
+}
+.input-cekbox label{
+    color: black;
+    
+}
+.input-cekbox input[type="checkbox"]{
+    /* appearance: none; */
+  /* -webkit-appearance: none; */
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+/* .input-cekbox input[type="checkbox"]:checked {
+    border-color: #007bff;
+    background-color: #007bff;
+  } */
+.input-date{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.input-date .date-kanan{
+    margin-left: 100px;
+}
+.project-form form .input-project-image-group{
+    width: 103%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: lightgrey;
+}
+.project-form form .input-project-image-group label{
+    display: flex;
+    width: 40%;
+    cursor: pointer;
+}
+
+.project-form form .input-project-image-group p{
+   
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   
+   color: white;
+   border-radius: 5px;
+   padding: 5px;
+   background: grey;
+}
+.project-form form .input-project-image-group p:hover{
+    font-size: 23px;
+   font-weight: bold;
+    color: blue;
+}
+.project-form form .input-button-image-group{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 98%;
+   
+    padding: 20px;
+    
+}
+.project-form form .input-button-image-group button{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.project-form form label:hover{
+    font-weight: bold;
+    font-size: 25px;
+}
+.project-form form input:hover{
+    box-shadow: 0px 0px 10px;
+}
+.project-form form textarea:hover{
+    box-shadow: 0px 0px 10px;
+}
+.project-form form .input-project-image-group:hover{
+    box-shadow: 0px 0px 10px;
+}
+.project-form form .input-button-image-group button:hover{
+   color: white;
+   font-size: 15px;
+   background-color: orangered;
+}
+/* project list */
+.project-list1{
+   
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.project-list-item{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    background-color: yellow;
+}
+
+/* project-list-nyaaaaa-nihhhh */
+
+.project-list1 h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.project-list2{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+}
+.project-items1{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 400px;
+    border: 2px solid grey;
+    border: 2px solid grey;
+    border-radius: 8px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 20px;
+}
+
+    
+    /* width: 30%; */
+.project-items-container{
+   width: 100%;
+   
+   padding: 40px;
+
+}
+.project-items-container div{
+    margin-top: 1px;
+}
+.project-items-container .project-list-paraf p{
+    /* font-weight: normal; */
+    /* font-size: 14px; */
+    line-height: 20px;
+    text-align: justify;
+}
+.project-items-image img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px;
+}
+.project-items-image img:hover{
+    border: 5px solid grey;
+}
+.project-items-judul{
+    margin-top: 5px;
+}
+/* .project-items-judul button{
+    display: flex;
+    justify-content: right;
+} */
+.project-items-image button{
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /* margin-left: 330px; */
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none;
+    list-style-type: none; */
+}
+.project-items-image a{
+    text-decoration: none;
+}
+.project-list-icon i{
+    margin-right: 30px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.button-project{
+    display: flex;
+    justify-content: center;
+    
+ 
+    
+}
+.button-project .button-project-edit{
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+    align-items: center;
+    background-color: black;
+}
+.button-project .button-project-delete{
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    align-items: center;
+    background-color: black;
+}
+.button-project a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 70px;
+    color: white;
+    font-size: large;
+    
+}
+.project-items-judul h2{
+    margin-top: 5px;
+}
+.project-items-judul h2:hover{
+    font-size: 25px;
+}
+.project-items-container button:hover{
+    font-size: 20px;
+    background-color: orangered;
+    border: 2px solid grey;
+}
+
+/* project-list-detail */
+
+.project-detail{
+    display: flex; 
+    width: 1450px;
+}
+.project-detail-container{
+    width: 80%; 
+    margin: 0px 100px; 
+    display: flex;
+}
+.project-deatail-container-items-image{
+    width: 100%;
+}
+.project-detail-container-items-image h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0px;
+    color: gold;
+}
+.project-detail-container-items-image h2:hover{
+    color: gold;
+    font-size: 35px;
+    font-weight: bold;
+}
+.project-detail-container-items-image p{
+    width: 135%;
+    line-height: 20px;
+    margin: 50px 0px;
+    color: lightgrey;
+    text-align: justify;
+}
+.project-detail-container-items-image p:hover{
+    font-size: 21px;
+    font-weight: bold;
+    box-shadow: opx opx 20px white;
+    color: gold;
+}
+.project-detail-container-items-image img{
+    width: 80%; 
+    border-radius: 8px; 
+    box-shadow: 0px 0px 10px;
+}
+.project-detail-container-items-image img:hover{
+    border: 5px solid lightslategray;
+    box-shadow: 0px 0px 30px;
+}
+.project-detail-container-items-icon{
+    display: flex; flex-direction: column; margin-top: 200px; margin-left: 10px; width: 300px;color: gold;
+}
+
+.project-detail-container-items-icon .duration{
+    width: 100%;
+}
+.project-detail-container-items-icon .iconik{
+    margin-top: 100px; margin-right: 300px; width: 110%;
+}
+.project-detail-container-items-icon i{
+    
+   margin: 5px 15px;
+    
+    
+}

@@ -6,28 +6,28 @@ function submitData() {
     let message = document.getElementById("input-message").value;
 
     if (name=="") {
-        return alert("Nama Harus Di isii")
+        return alert("Nama Harus Di isii");
     } else if (email=="") {
-        return alert("Email Harus Di isii")
+        return alert("Email Harus Di isii");
     } else if(phone=="") {
-        return alert("Phone Harus Di isii")
+        return alert("Phone Harus Di isii");
     } else if(subject=="") {
-        return alert("Subject Harus Di Pilih")
+        return alert("Subject Harus Di Pilih");
     } else if(message=="") {
         return alert("Message Harus Di ISII")
-    }
+    };
     console.log(name);
     console.log(email);
     console.log(phone);
     console.log(subject);
     console.log(message);
 
-    let emailReceiver = "andigagaga1@gmail.com"
+    // let emailReceiver = "andigagaga1@gmail.com"
 
 
     let a = document.createElement('a');
-    a.href = `mailto:${emailReceiver}?, subject = ${subject},&body= Halo, perkenalkan nama saya ${name}, ${message}.silahkan hubungi saya di nomor ${phone},terima kasih`
-    a.click()
+    a.href = `mailto:${email}?subject= ${subject} &body=Halo, Perkenalkan Nama Saya ${name}, ${message};    Silahkan Hubungi Saya Di Nomor ${phone}, Terima Kasih.`;
+    a.click();
 
     let objecter = {
         name,

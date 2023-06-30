@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>CONTACT ME</title>
 </head>
 
@@ -15,14 +15,14 @@
             <ul>
                 <li>
                     <a href="https://id.wikipedia.org/wiki/Cinta">
-                        <img style="width: 40px; margin: 5px auto;" src="image/pdi.jpg" alt="pdi.p">
+                        <img style="width: 40px; margin: 5px auto;" src="assets/images/love.jpg" alt="pdi.p">
                     </a>
                 </li>
                 <li>
                     <a style="text-decoration: none;" href="index.html">HOME</a>
                 </li>
                 <li>
-                    <a style="text-decoration: none;" href="#">MY PROJECT</a>
+                    <a style="text-decoration: none;" href="project.html">MY PROJECT</a>
                 </li>
             </ul>
         </div>
@@ -53,9 +53,9 @@
             <label for="input-phone">YOUR PHONE</label>
             <input id="input-phone" type="number" required>
         </div>
-        <div>
+        <div class="subject">
             <label for="input-subject">SUBJECT</label>
-            <select id="input-subject" style="font-weight: bold; color: black; width: 580px;">
+            <select id="input-subject">
                 <option value="" hidden>SELECT</option>
                 <option>FULL STACK</option>
                 <option>FRONTEND</option>
@@ -71,7 +71,7 @@
             <button type="button" onclick="submitData()">SUBMIT</button>
         </div>
     </form>
-    <script src="contact.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 
