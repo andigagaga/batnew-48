@@ -31,6 +31,8 @@
     margin-bottom: 18px;
     border-radius: 5px;
     background: lightgrey;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 .project-form form textarea{
     margin-bottom: 20px;
@@ -98,11 +100,14 @@
    border-radius: 5px;
    padding: 5px;
    background: grey;
+   transition-duration: 0.2s;
+  transition-property: transform;
 }
 .project-form form .input-project-image-group p:hover{
     font-size: 23px;
    font-weight: bold;
     color: blue;
+    transform: scale(1.1);
 }
 .project-form form .input-button-image-group{
     display: flex;
@@ -122,16 +127,25 @@
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
+    transition-duration: 0.2s;
+  transition-property: transform;
+}
+.project-form form label{
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 .project-form form label:hover{
     font-weight: bold;
     font-size: 25px;
+    transform: scale(1.1);
 }
 .project-form form input:hover{
     box-shadow: 0px 0px 10px;
+    transform: scale(1.1);
 }
 .project-form form textarea:hover{
     box-shadow: 0px 0px 10px;
+    transform: scale(1.1);
 }
 .project-form form .input-project-image-group:hover{
     box-shadow: 0px 0px 10px;
@@ -140,6 +154,7 @@
    color: white;
    font-size: 15px;
    background-color: orangered;
+   transform: scale(1.1);
 }
 /* project list */
 .project-list1{
@@ -147,8 +162,10 @@
     margin-top: 5px;
     margin-bottom: 10px;
     display: flex;
-    width: 100%;
-    flex-direction: column;
+    width: 50%;
+    /* display: grid; */
+    /* grid: auto auto auto auto; */
+    /* flex-direction: column; */
 }
 .project-list-item{
     width: 50%;
@@ -180,8 +197,7 @@
     width: 500px;
     display: flex;
     justify-content: center;
-    margin: 20px 400px;
-    border: 2px solid grey;
+    margin: 20px 10px;
     border: 2px solid grey;
     border-radius: 8px;
     background-color: lightgrey;
@@ -209,9 +225,12 @@
     width: 100%;
     border-radius: 8px;
     box-shadow: 0px 0px 20px;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 .project-items-image img:hover{
     border: 5px solid grey;
+    transform: scale(1.1);
 }
 .project-items-judul{
     margin-top: 5px;
@@ -282,7 +301,7 @@
     
 }
 .project-items-judul h2{
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .project-items-judul h2:hover{
     font-size: 25px;
@@ -354,7 +373,8 @@
 }
 .project-detail-container-items-icon i{
     
-   margin: 5px 15px;
+   margin: 15px 5px;
+   
     
     
 }

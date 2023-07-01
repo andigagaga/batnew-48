@@ -25,7 +25,7 @@ function submitData() {
     // let emailReceiver = "andigagaga1@gmail.com"
 
 
-    let a = document.createElement('a');
+    let a = document.createElement("a");
     a.href = `mailto:${email}?subject= ${subject} &body=Halo, Perkenalkan Nama Saya ${name}, ${message};    Silahkan Hubungi Saya Di Nomor ${phone}, Terima Kasih.`;
     a.click();
 

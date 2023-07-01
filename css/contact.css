@@ -27,6 +27,9 @@ input, textarea, select {
     padding: 10px;
     background: lightgrey;
     margin-top: 5px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+  transition-property: transform;
     
 }
 .subject select{
@@ -52,25 +55,31 @@ button {
 input:hover {
     background-color: chocolate;
     box-shadow: 0px 0px 10px;
+    transform: scale(1.1);
 }
 select:hover {
     background-color: chocolate;
     box-shadow: 0px 0px 10px;
+    transform: scale(1.1);
 }
 textarea:hover {
     color: chocolate;
     box-shadow: 0px 0px 10px;
+    transform: scale(1.1);
 }
-textarea:hover {
+/* textarea:hover {
     background: grey;
     box-shadow: 0px 0px 10px;
-}
+} */
 textarea:hover {
     background-color: white;
 }
 button {
     margin-left: 475px;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 button:hover {
     background-color: chocolate;
+    transform: scale(1.1);
 }

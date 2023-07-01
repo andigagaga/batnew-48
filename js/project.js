@@ -75,8 +75,7 @@ function renderProject() {
 
     for (let index = 0; index < dataProject.length; index++) {
         document.getElementById("contents").innerHTML += `
-        <h1>MY PROJECT</h1>
-        <div class="project-list2" id="project-list2">
+        
             <div class="project-items1" id="project-items1">
                 <div class="project-items-container">
                     <div class="project-items-image">

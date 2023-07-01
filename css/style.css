@@ -3,6 +3,7 @@ body {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .card{
     box-shadow: 0px 0px 25px;
     background: white; 
@@ -13,28 +14,34 @@ body {
     margin: 150px auto; 
     padding: 10px; 
     border-radius: 10px;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 .card:hover{
-    border: 10px solid white;
+    transform: scale(1.1);
 }
 
 h1:hover{
-    font-weight: bold;
-    font-size: 37px;
+    transform: scale(1.1);
 }
 h1 {
     font-weight: bold;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 
 p:hover{
     font-weight: 20;
     font-size: 20px;
+    transform: scale(1.1);
     
     color: chocolate;
 }
 p{
     font-weight: bold; 
     font-size: 20px;
+    transition-duration: 0.2s;
+    transition-property: transform;
 }
 
 button {
@@ -43,13 +50,31 @@ button {
 .Download button:hover {
     background-color: orangered;
 }
+.home-icon{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:50px; top:0px;}
+    50%  {color:blue; left:50px; top:50px;}
+    75%  {color:gold; left:0px; top:50px;}
+    100% {color:pink; left:0px; top:0px;}
+  }
+
 .kiri .desc p {
     font-size: 18px;
     font-weight: bold;
 }
 .kanan:hover{
-    border: 10px solid white;
-    border-radius: 10px;
+    transform: scale(1.1);
 }
 .kiri{
     width: 60%;
@@ -62,6 +87,8 @@ button {
     box-sizing: border-box; 
     background: white; 
     margin-top: 25px;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 .download{
     margin-top: 50px;
@@ -71,10 +98,13 @@ button {
     margin: 50px;
     text-decoration: none;
     list-style-type: none;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 .icon a i:hover{
     border: 5px solid white;
     color: chocolate;
+    transform: scale(1.1);
 }
 
 nav {
