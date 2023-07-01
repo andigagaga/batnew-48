@@ -129,11 +129,13 @@ nav ul li a {
     font-weight: bold;
     border-radius: 5px;
     color: black;
+    transition-duration: 0.2s;
+  transition-property: transform;
 }
 nav ul li a:hover {
-    color: white;
-    background-color: chocolate;
+    color: orangered;
     font-size: 25px;
+    transform: scale(1.1);
 }
 .nav-kiri {
     flex: 50%;
